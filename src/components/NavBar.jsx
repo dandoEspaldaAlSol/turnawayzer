@@ -1,4 +1,7 @@
 import "bootswatch/dist/sandstone/bootstrap.min.css"
+import React from "react"
+import CartWidget from "./CartWidget"
+
 
 function NavBar (){
 
@@ -17,6 +20,9 @@ return(
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="./Contacto">Contacto</a>
+                </li>
+                <li className="cart">
+                <a className="nav-link" href="./CartWidget"><img src="../carrito.svg" width={50} height={30}  alt="" /> </a>
                 </li>
            </ul>
         </div>

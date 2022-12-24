@@ -1,9 +1,9 @@
-import NavBar from "../NavBar"
 
+import React from "react"
 const Home=()=>{
     return(
         <>
-        <NavBar />
+        
         <h1>hola</h1>
         </>
     )

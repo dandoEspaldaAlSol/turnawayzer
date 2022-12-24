@@ -1,12 +1,12 @@
-
+import React from "react"
 import NavBar from "./NavBar"
+import Titulo from "./Titulo"
 
 function ItemListContainer(){
 
     return(
         <>
-        <NavBar />
-       
+       <Titulo greeting='Turnawayzer' />
         </>
     )
 
